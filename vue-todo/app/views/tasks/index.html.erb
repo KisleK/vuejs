@@ -1,0 +1,25 @@
+<div id="app">
+ <ol>
+  <div>
+    {{ message }}
+  </div>
+
+  <li v-for="task in tasks" v-on:click="completeTask(task)"> 
+    {{task}} 
+  </li>
+
+ </ol>
+</div>
+
+<div>
+  <input type="text" v-model="newTask">
+  <button v-on:click="addTask()">Add Task</button>
+</div>
+
+
+
+
+
+
+
+
