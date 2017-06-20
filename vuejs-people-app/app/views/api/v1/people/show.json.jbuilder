@@ -1,4 +1,4 @@
-json.id @people.id
-json.name @people.name
-json.bio @people.bio
+json.id @person.id
+json.name @person.name
+json.bio @person.bio
 json.bioVisible false

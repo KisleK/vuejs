@@ -1,7 +1,6 @@
-json.array! @peoples.each do |people|
-  json.id people.id
-  json.name people.name
-  json.bio people.bio
+json.array! @people.each do |person|
+  json.id person.id
+  json.name person.name
+  json.bio person.bio
   json.bioVisible false
-  
 end

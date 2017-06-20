@@ -1,12 +1,14 @@
 Person.create!([
-              {
-                name: "Kyle",
-                bio: "Hello, my name is Kyle."
-                
-              },
-              {
-                name: "James",
-                bio: "My name is James."
-                
-              }
-                ])
+                {
+                  name: "Sir Mix A Lot",
+                  bio: "I like big butts and I cannot lie!"
+                 },
+                 {
+                  name: "Slim Shady",
+                  bio: "Why yes, I'm Slim Shady, yes I'm the real Shady."
+                 },
+                 {
+                  name: "Ludacris",
+                  bio: "Move!"
+                 }
+              ])
